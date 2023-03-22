@@ -1,0 +1,9 @@
+echo "Q2. Write a shell script to find odd and even number."
+echo "Enter the number to check even or odd:- "
+read num
+if $num%2 -eq 0;
+then
+	echo "$num is even"
+else
+	echo "$num is odd"
+fi
